@@ -2,5 +2,7 @@
 </script>
 
 <template>
-  <RouterView />
+  <div>
+    sign up
+  </div>
 </template>
