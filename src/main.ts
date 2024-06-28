@@ -1,13 +1,13 @@
-import { createApp } from 'vue'
-import './style.css'
-import PrimeVue from 'primevue/config'
-import App from './App.vue'
+import '@unocss/reset/tailwind.css'
+import '@/styles/style.css'
 import 'uno.css'
-import 'primevue/resources/themes/aura-dark-indigo/theme.css'
+import 'vfonts/OpenSans.css'
+
+import { createApp } from 'vue'
+import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
 
-app.use(PrimeVue)
 app.use(router)
 app.mount('#app')

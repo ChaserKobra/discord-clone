@@ -3,6 +3,7 @@
 
 <template>
   <div>
-    首页   
+    <ThemeSwitcher />
+    首页
   </div>
 </template>

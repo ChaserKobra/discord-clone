@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
-    sign in
+  <div bg-indigo-600>
+    Click
   </div>
 </template>

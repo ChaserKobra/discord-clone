@@ -16,6 +16,7 @@
       "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
+    "types": ["naive-ui/volar"],
     "allowImportingTsExtensions": true,
 
     /* Linting */

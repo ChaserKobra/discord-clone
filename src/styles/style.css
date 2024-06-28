@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --primary-color: indigo;
+  --dark-bg: #313338;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  background: white;
+}
+
+body {
+  font-size: 16px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: var(--dark-bg);
+}
